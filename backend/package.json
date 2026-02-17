@@ -1,12 +1,12 @@
-
 {
   "name": "backend",
   "version": "1.0.0",
-  
   "main": "app.js",
- "scripts": {
-  "start": "node app.js",
-  "dev": "nodemon app.js"
-}
-
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
 }
