@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router()
 
-const { protect } = require('../middleware/authMiddleware')
-const { isCoach } = require('../middleware/roleMiddleware')
-const User = require('../models/User')
+const { protect } = require('../middleware/authmiddleware')
+const { isCoach } = require('../middleware/rolemiddleware')
+const User = require('../models/user')
 
 /* =========================
    COACH — ASIGNAR ALUMNO

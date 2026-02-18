@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
-import ProgressChart from '../components/ProgressChart'
+import Navbar from '../components/navbar'
+import ProgressChart from '../components/progresschart'
 
 const API = import.meta.env.VITE_API_URL
 

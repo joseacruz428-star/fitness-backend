@@ -1,9 +1,9 @@
  import { useEffect, useState } from 'react';
-import Sidebar from '../components/Sidebar';
-import StatCard from '../components/StatCard';
-import CreateWorkout from './CreateWorkout';
-import Navbar from '../components/Navbar';
-import ProgressChart from '../components/ProgressChart';
+import Sidebar from '../components/sidebar';
+import StatCard from '../components/statCard';
+import CreateWorkout from './createworkout';
+import Navbar from '../components/navbar';
+import ProgressChart from '../components/progresschart';
 
 const API = import.meta.env.VITE_API_URL
 

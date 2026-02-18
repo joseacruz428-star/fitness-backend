@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 
-import Login from './pages/Login'
-import Dashboard from './pages/Dashboard'
-import AthleteDashboard from './pages/AthleteDashboard'
+import Login from './pages/login'
+import Dashboard from './pages/dashboard'
+import AthleteDashboard from './pages/athletedashboard'
 
 function App() {
   // Estado global de sesión

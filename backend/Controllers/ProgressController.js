@@ -1,4 +1,4 @@
-const Progress = require('../models/Progress')
+const Progress = require('../models/progress')
 
 // Crear progreso
 exports.createProgress = async (req, res) => {
